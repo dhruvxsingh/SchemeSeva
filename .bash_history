@@ -26,3 +26,19 @@ ls Backend/
 cd Backend/
 node index.js
 cd ..
+git add .
+git commit -m "fix: dotenv, cors, start script for deployment"
+git push
+ls Frontend/
+ls
+cat Frontend/package.json
+ls Frontend/src/
+cat Frontend/src/services/
+ls Frontend/src/services/
+ls Frontend/src/services/users/
+ls Frontend/src/services/schemes/
+ls Frontend/src/services/recommendations/
+cat Frontend/src/services/users/userAuthenticatedAxiosInstance.js
+cat Frontend/src/services/users/user.js
+cat Frontend/src/services/schemes/schemeService.js
+cat Frontend/src/services/recommendations/recommendationService.js
