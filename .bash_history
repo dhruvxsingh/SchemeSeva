@@ -42,3 +42,13 @@ cat Frontend/src/services/users/userAuthenticatedAxiosInstance.js
 cat Frontend/src/services/users/user.js
 cat Frontend/src/services/schemes/schemeService.js
 cat Frontend/src/services/recommendations/recommendationService.js
+git add .
+git commit -m "fix: frontend env setup"
+git push
+npm install --save-dev @babel/plugin-proposal-private-property-in-object
+rm -rf node_modules package-lock.json package.json
+cd Frontend/
+npm install --save-dev @babel/plugin-proposal-private-property-in-object
+npx update-browserslist-db@latest
+cd ..
+ls
