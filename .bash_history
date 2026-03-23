@@ -58,3 +58,6 @@ git push
 cd Frontend/
 npm run build
 cd ..
+git add .
+git commit -m "fix: add vercel.json for frontend"
+git push

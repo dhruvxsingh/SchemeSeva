@@ -6,8 +6,8 @@ import instagram from "../../../utils/images/footer/instagram.png";
 import facebook from "../../../utils/images/footer/facebook.png";
 import youtube from "../../../utils/images/footer/youtube.png";
 import x from "../../../utils/images/footer/twitter.png";
-import { Link } from "react-router-dom";
-import OpenInNewIcon from "@mui/icons-material/OpenInNew";
+// import { Link } from "react-router-dom";
+// import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import "./footer.css";
 
 const Footer = () => {
