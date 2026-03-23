@@ -52,3 +52,9 @@ npm install --save-dev @babel/plugin-proposal-private-property-in-object
 npx update-browserslist-db@latest
 cd ..
 ls
+git add .
+git commit -m "fix: babel plugin and browserslist update"
+git push
+cd Frontend/
+npm run build
+cd ..
