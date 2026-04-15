@@ -61,3 +61,42 @@ cd ..
 git add .
 git commit -m "fix: add vercel.json for frontend"
 git push
+git add .
+git commit -m "fix: remove unused imports in Footer.js"
+git push
+cat Backend/db/query_to_apply.txt
+find /e/scheme-seva-main -name "*.json" | grep -v node_modules
+ls Backend/models/
+cat Backend/models/scheme*
+head -5 updated_data.csv 
+cd /e/scheme-seva-main/Backend
+npm install csvtojson
+touch Backend/importData.js
+touch importData.js
+cp /path/to/updated_data.csv /e/scheme-seva-main/Backend/
+cp updated_data.csv /e/scheme-seva-main/Backend/
+ls
+cd /e/scheme-seva-main/Backend
+node importData.js
+node importData.js
+ls
+touch routes/chat.js
+ls
+cd /e/scheme-seva-main/Frontend
+curl -X POST http://localhost:5000/api/chat -H "Content-Type: application/json" -d "{\"message\": \"schemes for students\"}"
+cd Backend/
+curl -X POST http://localhost:5000/api/chat -H "Content-Type: application/json" -d "{\"message\": \"schemes for students\"}"
+node index.js
+curl -X POST http://localhost:5000/api/chat -H "Content-Type: application/json" -d "{\"message\": \"schemes for students\"}"
+node index.js
+[200~curl -X POST http://localhost:5000/api/chat -H "Content-Type: application/json" -d "{\"message\": \"schemes for students\"}"
+~curl -X POST http://localhost:5000/api/chat -H "Content-Type: application/json" -d "{\"message\": \"schemes for students\"}"
+cd ..
+curl -X POST http://localhost:5000/api/chat -H "Content-Type: application/json" -d "{\"message\": \"schemes for students\"}"
+node index.js
+curl -X POST http://localhost:5000/api/chat -H "Content-Type: application/json" -d "{\"message\": \"schemes for students\"}"
+node index.js
+curl -X POST http://localhost:5000/api/chat -H "Content-Type: application/json" -d "{\"message\": \"schemes for students\"}"
+node index.js
+curl -X POST http://localhost:5000/api/chat -H "Content-Type: application/json" -d "{\"message\": \"schemes for students\"}"
+cd /e/scheme-seva-main

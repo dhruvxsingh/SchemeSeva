@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
+import chatRoutes from "./routes/chat.js";
 import apiRoutes from "./routes/index.js"; // Main routes file
 import { secureApiMiddleware, setBrowserIdentification } from "./middlewares/securityMiddleware.js";
 
@@ -27,6 +28,8 @@ app.use("/api", secureApiMiddleware);
 
 // Declare API routes
 app.use("/api", apiRoutes); // Attach all API routes
+app.use("/api/chat", chatRoutes);
+
 
 // health check api
 app.get("/", (req, res) => {

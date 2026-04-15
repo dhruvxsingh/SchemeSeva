@@ -57,7 +57,7 @@ A comprehensive platform that helps citizens discover, understand, and access go
 
 1. Clone the repository
 ```bash
-git clone https://github.com/9582anupam/scheme-seva
+git clone https://github.com/dhruvxsingh/SchemeSeva
 ```
 
 2. Frontend Setup

@@ -7,6 +7,7 @@ import Signup from "./components/pages/auth/Signup";
 import ProtectedRoutes from "./routes/ProtectedRoutes";
 import Unauthenticated from "./routes/Unauthenticated";
 import UserProvider from "./context/UserContext";
+import AiChat from "./components/AiChat";
 import SchemeDetails from "./components/pages/schemeDetails/SchemeDetails";
 import Schemes from "./components/pages/schemes/Schemes";
 import Profile from "./components/pages/profile/Profile";
@@ -43,8 +44,9 @@ function App() {
                     <div className="content-wrapper pt-[5rem]">
                         <Routes>
                             {/* Public Routes - No Auth Needed */}
-
+                            
                             <Route path="/" element={<Home />} />
+                            <Route path="/ai-chat" element={<AiChat />} />
                             <Route path="/schemes" element={<Schemes />} />
                             <Route path="/scheme/:id" element={<SchemeDetails />} />
                             {/* Unauthenticated Routes - Only Accessible When Logged Out */}
